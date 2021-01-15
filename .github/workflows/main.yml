@@ -11,6 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Build Website
+        run: |
+          yarn
+          yarn build
       - name: Configure AWS credentials
         if: github.event_name == 'push'
         uses: aws-actions/configure-aws-credentials@v1
