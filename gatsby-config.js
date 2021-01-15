@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Welcome to Gatsby Site!`,
-    name: `Narative`,
+    title: `Welcome to BitCloudify!`,
+    name: `BitCloudify`,
     siteUrl: `https://novela.narative.co`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
