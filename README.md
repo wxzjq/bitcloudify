@@ -1,71 +1,61 @@
-<a href="https://novela.narative.co" target="_blank">
-<img src="https://raw.githubusercontent.com/narative/gatsby-theme-novela-example/master/assets/gatsby-theme-novela-hero.jpg" alt="gatsby-novela-theme hero image" />
-</a>
 
-<br/>
+<p align="center">
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Automatic GatsbyJS App Landing Page
+</h1>
+<p align="center">
+  Create and deploy an iOS app landing page on GitHub Pages and Netlify in a couple of minutes<br><br>
+  <img alt="GitHub" src="https://img.shields.io/github/license/ImedAdel/automatic-gatsbyjs-app-landing-page.svg">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/ImedAdel/automatic-gatsbyjs-app-landing-page.svg">
+  <img alt="GitHub forks" src="https://img.shields.io/github/forks/ImedAdel/automatic-gatsbyjs-app-landing-page.svg">
+</p>
 
-# Gatsby Starter Novela
 
-With minimal styling and maximum features — including multiple homepage layouts, built-in social sharing and dark mode — Novela makes it easy to start publishing beautiful articles and stories with Gatsby.
+![Automatic GatsbyJS App Landing Page](https://raw.githubusercontent.com/ImedAdel/Mac-Arabic-Keyboard-for-Windows/master/68747470733a2f2f656d696c62616568722e636f6d2f66696c65732f6a6179736f6e312e706e67.png)
+![Automatic GatsbyJS App Landing Page](https://raw.githubusercontent.com/ImedAdel/Mac-Arabic-Keyboard-for-Windows/master/68747470733a2f2f656d696c62616568722e636f6d2f66696c65732f736c6f72312e706e67.png)
 
-Novela is built by the team at [Narative](https://www.narative.co), and built for everyone that loves the web.
+----
 
-<div>
-<a href="https://novela.narative.co" target="_blank">
-<img src="https://raw.githubusercontent.com/narative/gatsby-theme-novela-example/master/assets/gatsby-theme-novela-cta-demo.jpg" alt="gatsby-novela-theme live demo" width="295px" />
-</a>
-</div>
+🔧 Fork this repo
 
-<div>
-<a href="https://www.narative.co/design/open/novela" target="_blank">
-<img src="https://raw.githubusercontent.com/narative/gatsby-theme-novela-example/master/assets/gatsby-theme-novela-cta-figma.jpg" alt="gatsby-novela-theme figma link" width="295px" />
-</a>
-</div>
+📲 Upload video preview or screenshot
 
-# Using Gatsby Starter Novela
+🎨 Customise site in `site-config.js` (no HTML/CSS)
 
-This guide will take you through setting up Novela with Gatsby Starter Novela.
+✅ Deploy to Netlify!
 
-### Step 1: Starter installation
 
-##### With `gatsby-cli`:
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ImedAdel/automatic-gatsbyjs-app-landing-page)
 
-```sh
-gatsby new novela-site https://github.com/narative/gatsby-starter-novela
-```
+<!---
+----
+<p align="center">
+  <a href="https://jamstack.studio">
+    <img alt="Jamstack Studio" src="https://raw.githubusercontent.com/ImedAdel/media/master/jamstack.studio_(Laptop%20with%20HiDPI%20screen).png" />
+  </a>
+</p>
+--->
+----
 
-##### With `git clone`:
+Or you can use this repo as a Gatsby Starter
+``
+gatsby new YourProjectName https://github.com/ImedAdel/automatic-gatsbyjs-app-landing-page
+npm run develop # or gatsby develop
+``
 
-```sh
-git clone git@github.com:narative/gatsby-starter-novela.git novela-site
+Then, configure `site-config.js`, run `npm run build`, and deploy the public repository to GitHub 🎉.
 
-cd novela-site
+## Credits
+- Based on [Automatic App Landing Page](https://github.com/emilbaehr/automatic-app-landing-page) by [Emil Baehr](https://emilbaehr.com/)
+- Built using [GatsbyJS](https://gatsbyjs.org)
+- Uses [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
 
-yarn
-```
+## Author
+[Imed Adel](https://github.com/ImedAdel)
 
-### Step 2: Develop & Build
-
-Once installed or cloned locally and all packages are installed you can begin developing your site.
-
-```sh
-# Run localhost
-yarn dev
-
-# Build your Gatsby site
-yarn build
-```
-
-If wanting to use Netlify CMS as the content editor, then you need to be run the proxy in another terminal tab. Then visit
-http://localhost:8000/admin to view the editor.
-```sh
-# Run proxy
-yarn proxy
-```
-
-### Help
-
-If you don't have *yarn* installed follow the [yarn getting started guide](https://classic.yarnpkg.com/en/docs/getting-started) 
-
-For more information visit the [Theme repository](https://github.com/narative/gatsby-theme-novela)
-
+## License
+[MIT](LICENSE)
