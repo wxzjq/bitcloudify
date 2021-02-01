@@ -27,5 +27,4 @@ jobs:
         run: aws s3 sync public s3://${{ secrets.AWS_BUCKET_NAME }} --delete --acl public-read
       - name: Invalidate CloudFront
         if: github.event_name == 'push'
-        run: aws cloudfront create-invalidation --distribution-id ${{
-          secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id ${{secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
