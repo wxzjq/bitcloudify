@@ -20,7 +20,6 @@
 
 ----
 
-🔧 Fork this repo
 
 📲 Upload video preview or screenshot
 
